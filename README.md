@@ -10,16 +10,19 @@
 if you are using environment manager like `conda` or `virtualenv` please activate your environment first.
 
 install poetry
+
 ```bash
 pip install poetry
 ```
 
 install dependencies
+
 ```bash
 poetry install
 ```
 
 initialize pre-commit
+
 ```bash
 pre-commit install
 ```
@@ -29,12 +32,12 @@ pre-commit install
 To add a new unit test, create a new file in the `tests` directory. The file should be named `test_<module_name>.py` where `<module_name>` is the name of the module you are testing. For example, if you are testing the `hw1` module, the file should be named `test_hw1.py`.
 
 Run the tests using the following command:
+
 ```bash
 poetry run pytest
 ```
 
 you will see some tests passed and some failed. You can see the failed tests by scrolling up in the terminal.
-
 
 ## How To Collaborate
 
@@ -53,3 +56,14 @@ You can either choose to:
   - Add your code or make changes to the existing code.
   - Push your changes to this repository on your branch.
   - Create a pull request to the `main` branch of this repository.
+
+## Team Members
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
