@@ -4,6 +4,7 @@
 ![Python Language](https://img.shields.io/badge/Language-Python-blue)
 ![Platform](https://img.shields.io/badge/Platform-ArchLinux-fedcba)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ncsu-csc510-25spring/hw1/.github/workflows/poetry-pytest.yml)
+[![codecov](https://codecov.io/gh/ncsu-csc510-25spring/hw1/graph/badge.svg?token=UYR1AABQ80)](https://codecov.io/gh/ncsu-csc510-25spring/hw1)
 
 ## How to setup
 
