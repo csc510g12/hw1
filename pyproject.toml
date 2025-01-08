@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw1"
+version = "0.1.0"
+description = "CSC510 25Spring Homework1"
+authors = ["VisualDust <gavin@gong.host>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.3.4"
+black = "^24.10.0"
+isort = "^5.13.2"
+pre-commit = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
