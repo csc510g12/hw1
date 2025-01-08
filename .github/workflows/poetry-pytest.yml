@@ -2,15 +2,19 @@ name: Run pytest
 
 on:
   pull_request:
-    paths-ignore:
-      - "**.md"
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - closed
 
 jobs:
   Test:
     strategy:
+      fail-fast: false # Ensure all matrix jobs run even if one fails
       max-parallel: 6
       matrix:
-        python-version: ["3.9","3.10","3.11"]
+        python-version: ["3.9", "3.10", "3.11"]
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     defaults:
@@ -22,6 +26,7 @@ jobs:
       #----------------------------------------------
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Set up python
         id: setup-python
         uses: actions/setup-python@v5
@@ -47,17 +52,20 @@ jobs:
         with:
           path: .venv
           key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+          
       #----------------------------------------------
       # install dependencies if cache does not exist
       #----------------------------------------------
       - name: Install dependencies
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
         run: poetry install --no-interaction --no-root
+
       #----------------------------------------------
       # install your root project
       #----------------------------------------------
       - name: Install project
         run: poetry install --no-interaction
+
       #----------------------------------------------
       #              run test suite
       #----------------------------------------------
@@ -65,5 +73,6 @@ jobs:
         run: |
           source $VENV
           pytest --cov=./ --cov-report=xml
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
