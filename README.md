@@ -61,6 +61,8 @@ You can either choose to:
   - Push your changes to this repository on your branch.
   - Create a pull request to the `main` branch of this repository.
 
+Once you open a PR, contributor bot will add you into team member list below.
+
 ## Team Members
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
