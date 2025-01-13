@@ -1,7 +1,4 @@
 # Homework 1
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![GitHub License](https://img.shields.io/github/license/ncsu-csc510-25spring/hw1)
 ![Python Language](https://img.shields.io/badge/Language-Python-blue)
