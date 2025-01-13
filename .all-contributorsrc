@@ -17,6 +17,17 @@
         "test",
         "doc"
       ]
+    },
+    {
+      "login": "azkuang",
+      "name": "azkuang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117621443?v=4",
+      "profile": "https://github.com/azkuang",
+      "contributions": [
+        "code",
+        "test",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -24,5 +35,5 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "projectName": "hw1",
-  "projectOwner": "ncsu-csc510-25spring"
+  "projectOwner": "csc510g12"
 }
