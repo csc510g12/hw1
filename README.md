@@ -68,7 +68,8 @@ Once you open a PR, contributor bot will add you into team member list below.
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.gong.host"><img src="https://avatars.githubusercontent.com/u/33346934?v=4?s=100" width="100px;" alt="Gavin Gong"/><br /><sub><b>Gavin Gong</b></sub></a><br /><a href="https://github.com/ncsu-csc510-25spring/hw1/commits?author=visualDust" title="Code">💻</a> <a href="https://github.com/ncsu-csc510-25spring/hw1/commits?author=visualDust" title="Tests">⚠️</a> <a href="https://github.com/ncsu-csc510-25spring/hw1/commits?author=visualDust" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.gong.host"><img src="https://avatars.githubusercontent.com/u/33346934?v=4?s=100" width="100px;" alt="Gavin Gong"/><br /><sub><b>Gavin Gong</b></sub></a><br /><a href="https://github.com/csc510g12/hw1/commits?author=visualDust" title="Code">💻</a> <a href="https://github.com/csc510g12/hw1/commits?author=visualDust" title="Tests">⚠️</a> <a href="https://github.com/csc510g12/hw1/commits?author=visualDust" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/azkuang"><img src="https://avatars.githubusercontent.com/u/117621443?v=4?s=100" width="100px;" alt="azkuang"/><br /><sub><b>azkuang</b></sub></a><br /><a href="https://github.com/csc510g12/hw1/commits?author=azkuang" title="Code">💻</a> <a href="https://github.com/csc510g12/hw1/commits?author=azkuang" title="Tests">⚠️</a> <a href="https://github.com/csc510g12/hw1/commits?author=azkuang" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
