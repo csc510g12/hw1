@@ -2,9 +2,12 @@
 
 ![GitHub License](https://img.shields.io/github/license/ncsu-csc510-25spring/hw1)
 ![Python Language](https://img.shields.io/badge/Language-Python-blue)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Code style: pylint](https://img.shields.io/badge/code%20style-pylint-yellowgreen)](https://pylint.pycqa.org/)
 ![Platform](https://img.shields.io/badge/Platform-ArchLinux-fedcba)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ncsu-csc510-25spring/hw1/.github/workflows/poetry-pytest.yml)
 [![codecov](https://codecov.io/gh/ncsu-csc510-25spring/hw1/graph/badge.svg?token=UYR1AABQ80)](https://codecov.io/gh/ncsu-csc510-25spring/hw1)
+
 
 ## How to setup
 
