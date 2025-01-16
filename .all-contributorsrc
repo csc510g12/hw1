@@ -28,6 +28,17 @@
         "test",
         "doc"
       ]
+    },
+    {
+      "login": "odesai840",
+      "name": "Ohm Desai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77876944?v=4",
+      "profile": "https://github.com/odesai840",
+      "contributions": [
+        "code",
+        "test",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
