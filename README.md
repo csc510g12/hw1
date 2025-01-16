@@ -43,26 +43,6 @@ poetry run pytest
 
 you will see some tests passed and some failed. You can see the failed tests by scrolling up in the terminal.
 
-## How To Collaborate
-
-You can either choose to:
-
-- Fork this repository:
-  - Click on the fork button on the top right corner of this page.
-  - Clone your forked repository to your local machine.
-  - Add this repository as an upstream remote.
-  - Add your code or make changes to the existing code.
-  - Push your changes to your forked repository.
-  - Create a pull request to the `main` branch of this repository.
-- Create a new branch in this repository:
-  - Clone this repository to your local machine.
-  - Create a new branch and switch to that branch.
-  - Add your code or make changes to the existing code.
-  - Push your changes to this repository on your branch.
-  - Create a pull request to the `main` branch of this repository.
-
-Once you open a PR, contributor bot will add you into team member list below.
-
 ## Team Members
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
