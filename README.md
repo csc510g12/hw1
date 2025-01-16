@@ -7,7 +7,7 @@
 ![Platform](https://img.shields.io/badge/Platform-ArchLinux-fedcba)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ncsu-csc510-25spring/hw1/.github/workflows/poetry-pytest.yml)
 [![codecov](https://codecov.io/gh/ncsu-csc510-25spring/hw1/graph/badge.svg?token=UYR1AABQ80)](https://codecov.io/gh/ncsu-csc510-25spring/hw1)
-
+[![DOI](https://zenodo.org/badge/913940479.svg)](https://doi.org/10.5281/zenodo.14665061)
 
 ## How to setup
 
